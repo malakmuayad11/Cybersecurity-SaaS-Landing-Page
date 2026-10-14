@@ -1,0 +1,45 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #0c2b4e;
+  --color-primary-hover: #1a3d64;
+
+  /* Backgrounds and Surfaces */
+  --color-bg: #f1f2fa;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f5f6ff;
+
+  /* Text */
+  --color-text-primary: #1e1b4b;
+  --color-text-secondary: #255a96;
+  --color-text-muted: #64708a;
+
+  /* Borders */
+  --color-border: #d9def0;
+
+  /* Typography */
+  --font-family: Arial, sans-serif;
+  --font-sm: 0.875rem;
+  --font-lg: 1.25rem;
+  --font-xl: clamp(1.25rem, 2vw, 1.5rem);
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* Spacing */
+  --space-sm: 0.25rem;
+  --space-md: 0.5rem;
+  --space-lg: clamp(0.5rem, 0.75rem, 1rem);
+
+  /* Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-rounded: 999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 5px rgb(0 0 0 / 8%);
+  --shadow-md: 0 6px 18px rgb(0 0 0 / 10%);
+
+  /* Transition */
+  --transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
