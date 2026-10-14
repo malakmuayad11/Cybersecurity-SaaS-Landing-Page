@@ -1,10 +1,11 @@
 :root {
   /* Brand Colors */
+  --color-bg: #363636;
   --color-primary: #0c2b4e;
   --color-primary-hover: #1a3d64;
 
   /* Backgrounds and Surfaces */
-  --color-bg: #f1f2fa;
+  /* --color-bg: #f1f2fa; */
   --color-surface: #fff;
   --color-surface-hover: #f5f6ff;
 

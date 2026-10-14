@@ -1,0 +1,40 @@
+.hero-container {
+  padding: var(--space-sm);
+  color: var(--color-text-white);
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__trademark {
+  padding: var(--space-md);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.hero__trademark--large {
+  font-size: 70px;
+  padding: var(--space-md);
+}
+
+.hero-container span {
+  color: var(--color-text-secondary);
+}
+
+.hero__description {
+  padding: var(--space-md);
+  color: var(--color-text-muted);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 1rem;
+  padding: var(--space-md);
+}
+
+.hero__img {
+  display: block;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
