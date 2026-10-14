@@ -5,10 +5,11 @@
 
   /* Backgrounds and Surfaces */
   --color-bg: #f1f2fa;
-  --color-surface: #ffffff;
+  --color-surface: #fff;
   --color-surface-hover: #f5f6ff;
 
   /* Text */
+  --color-text-white: #fff;
   --color-text-primary: #1e1b4b;
   --color-text-secondary: #255a96;
   --color-text-muted: #64708a;
