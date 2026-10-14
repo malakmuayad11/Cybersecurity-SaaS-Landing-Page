@@ -39,8 +39,8 @@
   --radius-rounded: 999px;
 
   /* Shadows */
-  --shadow-sm: 0 2px 5px rgb(0 0 0 / 8%);
-  --shadow-md: 0 6px 18px rgb(0 0 0 / 10%);
+  --shadow-sm: 0 2px 5px#255a96;
+  --shadow-md: 0 6px 18px #255a96;
 
   /* Transition */
   --transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
