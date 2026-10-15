@@ -2,16 +2,6 @@
   padding: var(--space-md);
 }
 
-.features__title {
-  font-size: var(--font-xl);
-}
-
-.features__description {
-  font-size: var(--font-lg);
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-md);
-}
-
 .feauters__cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

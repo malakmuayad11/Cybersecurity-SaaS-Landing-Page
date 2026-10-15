@@ -1,0 +1,28 @@
+.prices {
+  padding: var(--space-md);
+}
+
+.prices-container {
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.prices-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.prices-card__features {
+  font-size: var(--font-lg);
+}
+
+.prices-card__features li::marker {
+  content: "✅ ";
+}
