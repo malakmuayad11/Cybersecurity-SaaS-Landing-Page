@@ -1,4 +1,14 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  color: var(--color-text-white);
+}
+
+section,
+main {
+  background-color: var(--color-bg);
+}
+
+section {
+  margin-bottom: var(--space-md);
 }

@@ -1,47 +1,47 @@
 :root {
   /* Brand Colors */
-  --color-bg: #363636;
-  --color-primary: #0c2b4e;
-  --color-primary-hover: #1a3d64;
+  --color-bg: #07182b;
+  --color-primary: #1677ff;
+  --color-primary-hover: #0863df;
 
   /* Backgrounds and Surfaces */
-  /* --color-bg: #f1f2fa; */
-  --color-surface: #fff;
-  --color-surface-hover: #f5f6ff;
+  --color-surface: #0d223a;
+  --color-surface-hover: #142d49;
 
   /* Text */
-  --color-text-white: #fff;
-  --color-text-primary: #1e1b4b;
-  --color-text-secondary: #255a96;
-  --color-text-muted: #64708a;
+  --color-text-white: #ffffff;
+  --color-text-primary: #10243a;
+  --color-text-secondary: #49627c;
+  --color-text-muted: #718198;
 
   /* Borders */
-  --color-border: #d9def0;
+  --color-border: #dce5f0;
 
   /* Typography */
-  --font-family: Arial, sans-serif;
-  --font-sm: 0.875rem;
+  --font-family: "Segoe UI", Arial, sans-serif;
+  --font-sm: 1rem;
   --font-lg: 1.25rem;
-  --font-xl: clamp(1.25rem, 2vw, 1.5rem);
+  --font-xl: 50px;
+  --font-2xl: 70px;
   --font-semi-bold: 600;
   --font-bold: 700;
   --leading-normal: 1.5;
-  --leading-relaxed: 1.6;
+  --leading-relaxed: 1.7;
 
   /* Spacing */
   --space-sm: 0.25rem;
-  --space-md: 0.5rem;
-  --space-lg: clamp(0.5rem, 0.75rem, 1rem);
+  --space-md: 20px;
+  --space-lg: clamp(0.75rem, 2vw, 1rem);
 
   /* Radius */
-  --radius-sm: 2px;
-  --radius-md: 4px;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
   --radius-rounded: 999px;
 
   /* Shadows */
-  --shadow-sm: 0 2px 5px#255a96;
-  --shadow-md: 0 6px 18px #255a96;
+  --shadow-sm: 0 2px 8px #0863df;
+  --shadow-md: 0 6px 18px #0863df;
 
   /* Transition */
-  --transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  --transition-shadow: box-shadow 0.3s ease-in-out;
 }

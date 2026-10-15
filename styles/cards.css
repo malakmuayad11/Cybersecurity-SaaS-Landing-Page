@@ -11,8 +11,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-right: 1px solid var(--color-border);
   padding: var(--space-sm);
   cursor: pointer;
   transition: box-shadow 0.3s ease-in-out;
@@ -25,9 +24,10 @@
 .card__title {
   color: var(--color-text-white);
   font-weight: var(--font-semibold);
-  font-size: var(--font-md);
+  font-size: 40px;
 }
 
 .card__description {
+  font-size: var(--space-md);
   color: var(--color-text-muted);
 }

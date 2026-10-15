@@ -13,7 +13,7 @@
 }
 
 .hero__trademark--large {
-  font-size: 70px;
+  font-size: var(--font-2xl);
   padding: var(--space-md);
 }
 
@@ -22,6 +22,7 @@
 }
 
 .hero__description {
+  font-size: var(--space-md);
   padding: var(--space-md);
   color: var(--color-text-muted);
 }
