@@ -1,5 +1,8 @@
 .faq {
   margin: var(--space-md);
+  background:
+    radial-gradient(circle at 50%, rgba(22, 119, 255, 0.1), transparent 45%),
+    var(--color-bg);
 }
 
 details {

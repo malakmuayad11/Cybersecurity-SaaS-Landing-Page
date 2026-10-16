@@ -42,8 +42,6 @@ header {
   border-radius: var(--radius-md);
   cursor: pointer;
   transition: var(--transition);
-  /* background-color: unset; */
-  /* background-color: var(--color-primary); */
 }
 
 .menu-toggle:hover {
@@ -85,7 +83,7 @@ header {
 .mobile-nav a {
   display: block;
   padding: var(--space-md) var(--space-lg);
-  color: var(--color-text-primary);
+  color: var(--color-text-white);
   font-size: var(--font-sm);
   line-height: var(--leading-normal);
   text-decoration: none;
@@ -139,7 +137,7 @@ header {
 
   .mobile-nav a {
     padding: var(--space-md) var(--space-lg);
-    color: var(--color-surface);
+    color: var(--color-text-white);
   }
 
   .mobile-nav a:hover,

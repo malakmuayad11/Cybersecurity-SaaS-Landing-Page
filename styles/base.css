@@ -5,7 +5,14 @@
 }
 
 body {
-  background-color: var(--color-bg);
+  background:
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(22, 119, 255, 0.2),
+      transparent 45%
+    ),
+    var(--color-bg);
+  font-family: var(--font-family);
 }
 
 section {

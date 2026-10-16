@@ -1,7 +1,13 @@
 .hero-container {
   padding: var(--space-sm);
   color: var(--color-text-white);
-  background-color: var(--color-bg);
+  background:
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(22, 119, 255, 0.2),
+      transparent 45%
+    ),
+    var(--color-bg);
   display: flex;
   justify-content: space-between;
   animation: var(--animate-slide-down);
@@ -10,7 +16,7 @@
 .hero__trademark {
   padding: var(--space-md);
   text-transform: uppercase;
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
 }
 
 .hero__trademark--large {
@@ -19,7 +25,7 @@
 }
 
 .hero-container span {
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
 }
 
 .hero__description {

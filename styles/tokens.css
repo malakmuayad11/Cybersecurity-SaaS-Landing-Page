@@ -12,13 +12,13 @@
   --color-text-white: #ffffff;
   --color-text-primary: #10243a;
   --color-text-secondary: #49627c;
-  --color-text-muted: #718198;
+  --color-text-muted: #9bafc5;
 
   /* Borders */
   --color-border: #dce5f0;
 
   /* Typography */
-  --font-family: "Segoe UI", Arial, sans-serif;
+  --font-family: "Inter", sans-serif;
   --font-sm: 1rem;
   --font-lg: 1.25rem;
   --font-xl: 50px;
@@ -56,5 +56,14 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
