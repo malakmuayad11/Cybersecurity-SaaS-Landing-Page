@@ -26,7 +26,7 @@ SecureFlow is a modern, responsive landing page and SaaS platform built for cybe
 
 ## Project Structure
 
-Cybersecurity SaaS Landing Page
+`Cybersecurity SaaS Landing Page
 ├── index.html # Main HTML landing page document
 ├── assets/
 │   ├── android-touch-icon.png # Touch icon for Android devices
@@ -45,8 +45,7 @@ Cybersecurity SaaS Landing Page
     ├── main.css # Master stylesheet importing individual CSS modules
     ├── prices.css # Pricing plan card styles
     ├── print.css # Print-specific style adjustments and media queries
-    └── tokens.css # Design tokens (CSS custom properties for colors, spacing, etc.)
-
+    └── tokens.css # Design tokens (CSS custom properties for colors, spacing, etc.)`
 
 ## Getting Started
 
