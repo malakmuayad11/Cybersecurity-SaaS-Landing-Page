@@ -26,6 +26,7 @@ SecureFlow is a modern, responsive landing page and SaaS platform built for cybe
 
 ## Project Structure
 
+```
 Cybersecurity SaaS Landing Page
 ├── index.html                  # Main HTML landing page document
 ├── assets/
