@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: var(--color-bg);
+  animation: var(--animate-slide-down);
 }
 
 .card {

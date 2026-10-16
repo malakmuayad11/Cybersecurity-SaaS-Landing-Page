@@ -4,6 +4,7 @@
   background-color: var(--color-bg);
   display: flex;
   justify-content: space-between;
+  animation: var(--animate-slide-down);
 }
 
 .hero__trademark {

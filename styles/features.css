@@ -1,5 +1,6 @@
 .features {
   padding: var(--space-md);
+  animation: var(--animate-slide-down);
 }
 
 .feauters__cards-container {
