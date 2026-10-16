@@ -1,0 +1,100 @@
+/* Print styles */
+@media print {
+  /* Use a clean white page with readable typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+
+  /* Set page margins */
+  @page {
+    margin: 1.5cm;
+  }
+
+  /* Hide navigation and decorative elements */
+  header,
+  footer,
+  .hero__img,
+  .hero__actions {
+    display: none !important;
+  }
+
+  /* Remove backgrounds, animations, and shadows */
+  *,
+  *::before,
+  *::after {
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Keep sections readable and avoid unnecessary spacing */
+  .hero-container,
+  .features,
+  .prices,
+  .faq {
+    display: block;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    border: none;
+    break-inside: auto;
+  }
+
+  /* Improve heading hierarchy */
+  h1,
+  h2,
+  h3,
+  .hero__trademark--large,
+  .section__title {
+    font-size: 16pt;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    break-after: avoid;
+  }
+
+  /* Keep paragraphs readable */
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Make cards and pricing plans print clearly */
+  .card,
+  .feauters__card,
+  .prices-card {
+    border: 1px solid #bbb;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    break-inside: avoid;
+  }
+
+  .prices-card button {
+    display: none;
+  }
+
+  .card:last-child {
+    border-right: 1px solid #bbb;
+  }
+
+  /* Keep pricing features easy to scan */
+  .prices-card__features {
+    padding-left: 1.25rem;
+  }
+
+  /* Prevent links from being styled like buttons */
+  a,
+  button {
+    text-decoration: none;
+  }
+
+  /* Avoid splitting important headings from their content */
+  .section__description {
+    margin-bottom: 1rem;
+  }
+}
