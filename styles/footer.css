@@ -1,0 +1,23 @@
+footer {
+  padding: var(--space-md);
+  background-color: var(--color-bg);
+}
+
+.footer__img-container {
+  display: flex;
+}
+
+.footer__img-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.footer__img-container p {
+  transform: translateY(30px) translateX(-20px);
+}
+
+.footer__rights {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}

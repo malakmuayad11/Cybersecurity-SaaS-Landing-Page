@@ -28,7 +28,7 @@ header {
   color: var(--color-text-white);
   font-weight: var(--font-semi-bold);
   font-size: var(--font-lg);
-  transform: translateY(15px);
+  transform: translateY(30px) translateX(-20px);
 }
 
 /* Mobile menu toggle */

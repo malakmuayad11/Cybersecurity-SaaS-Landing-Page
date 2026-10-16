@@ -4,8 +4,7 @@
   color: var(--color-text-white);
 }
 
-section,
-main {
+body {
   background-color: var(--color-bg);
 }
 
