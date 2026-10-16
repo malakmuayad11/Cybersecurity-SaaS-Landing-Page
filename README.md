@@ -47,6 +47,7 @@ Cybersecurity SaaS Landing Page
     ├── prices.css              # Pricing plan card styles
     ├── print.css               # Print-specific style adjustments and media queries
     └── tokens.css              # Design tokens (CSS custom properties for colors, spacing, etc.)
+```
 
 ## Getting Started
 
