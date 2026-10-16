@@ -18,7 +18,8 @@
   header,
   footer,
   .hero__img,
-  .hero__actions {
+  .hero__actions,
+  .contact {
     display: none !important;
   }
 

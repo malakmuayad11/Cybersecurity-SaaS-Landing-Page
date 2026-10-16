@@ -57,8 +57,8 @@
         <nav class="mobile-nav">
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -222,7 +222,7 @@
       </section>
 
       <!-- FAQ section: answers to common questions about the platform -->
-      <section class="faq">
+      <section class="faq" id="faq">
         <h2 class="section__title">Frequently Asked Questions</h2>
 
         <!-- Subscription changes -->
@@ -248,6 +248,45 @@
           <summary>What payment methods do you accept?</summary>
           <p>We accept visa, master card, and western union.</p>
         </details>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2 class="section__title">Talk to us</h2>
+        <p class="section__description">We are happy to hear you!</p>
+
+        <!-- Contact Form -->
+        <form class="contact__form">
+          <!-- Full Name Field -->
+          <div class="form__group">
+            <label class="form__label" for="fullName">Full Name</label>
+            <input
+              class="form__control"
+              type="text"
+              name="fullName"
+              id="fullName"
+            />
+          </div>
+
+          <!-- Email Address Field -->
+          <div class="form__group">
+            <label class="form__label" for="email">Email Address</label>
+            <input class="form__control" type="email" name="email" id="email" />
+          </div>
+
+          <!-- Message Field -->
+          <div class="form__group">
+            <label class="form__label" for="message">Message</label>
+            <textarea
+              class="form__control"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+
+          <!-- Submit Action Button -->
+          <button class="button button--primary">Submit</button>
+        </form>
       </section>
     </main>
 

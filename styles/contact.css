@@ -1,0 +1,74 @@
+.contact {
+  background-color: var(--color-surface, #ffffff);
+  padding: var(--spacing-xl, 3rem) var(--spacing-lg, 2rem);
+  border-radius: var(--border-radius-lg, 12px);
+  box-shadow: var(--shadow-sm);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact .section__title {
+  font-size: var(--font-size-2xl, 2rem);
+  margin-bottom: var(--spacing-xs, 0.5rem);
+}
+
+.contact .section__description {
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-lg, 2rem);
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.contact form div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contact label {
+  font-size: var(--font-sm);
+  font-weight: var(--font-semi-bold);
+  color: var(--color-text-white);
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--color-surface-hover);
+}
+
+.contact textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact .button {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin: var(--space-md);
+  }
+}

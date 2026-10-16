@@ -38,6 +38,7 @@ Cybersecurity SaaS Landing Page
     ├── base.css                # Core element resets and foundational typography styles
     ├── buttons.css             # Reusable button components and interactive states
     ├── cards.css               # Container card component styles
+    ├── contact.css             # Contact form styles
     ├── faq.css                 # Layout and styling for the FAQ section
     ├── features.css            # Styling rules for the features grid and section
     ├── footer.css              # Page footer layout and copyright details
@@ -57,11 +58,9 @@ Clone the repository:
 
 `git clone https://github.com/your-username/secureflow.git`
 
-
 Navigate to the project directory:
 
 `cd secureflow`
-
 
 Open the project:
 
