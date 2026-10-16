@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Document metadata and page configuration -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SecureFlow</title>
+
     <!-- Apple Touch Icon: for Apple devices -->
     <link
       rel="apple-touch-icon"
@@ -18,19 +20,24 @@
       sizes="192x192"
       href="./assets/android-touch-icon.png"
     />
+
     <!-- SVG Favicon: scalable for various display devices -->
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
 
-    <!-- Using the Inter font from google fonts -->
+    <!-- Google Fonts: load the Inter font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
+
   <body>
+    <!-- Header: logo, brand name, and mobile navigation -->
     <header>
       <div class="header__main">
         <img
@@ -41,6 +48,8 @@
         />
         <p class="header__title">SecureFlow</p>
       </div>
+
+      <!-- Mobile navigation menu toggle -->
       <div>
         <label for="menuToggle" class="menu-toggle">☰ Menu</label>
         <input type="checkbox" id="menuToggle" class="menu-checkbox" />
@@ -54,7 +63,10 @@
         </nav>
       </div>
     </header>
+
+    <!-- Main content of the landing page -->
     <main>
+      <!-- Hero section: main headline, description, and call-to-action buttons -->
       <section class="hero-container">
         <div>
           <p class="hero__trademark">Smareter security, stronger tomorrow</p>
@@ -66,11 +78,15 @@
             businessses detect, prevent, and response to threats -all in one
             place.
           </p>
+
+          <!-- Hero call-to-action buttons -->
           <div class="hero__actions">
             <button class="button button--primary">Get Started Free</button>
             <button class="button button--outline">Watch Demo</button>
           </div>
         </div>
+
+        <!-- Hero image -->
         <img
           class="hero__img"
           src="./assets/logo.png"
@@ -78,30 +94,39 @@
           loading="eager"
         />
       </section>
+
+      <!-- Statistics section: platform metrics and performance indicators -->
       <section class="cards-container">
         <div class="card">
           <p class="card__title">10K+</p>
           <p class="card__description">Active Users</p>
         </div>
+
         <div class="card">
           <p class="card__title">99.9%</p>
           <p class="card__description">Threat Detect Rate</p>
         </div>
+
         <div class="card">
           <p class="card__title">24/7</p>
           <p class="card__description">Security Monitoring</p>
         </div>
+
         <div class="card">
           <p class="card__title">4.8/5</p>
           <p class="card__description">Customer Satisfication</p>
         </div>
       </section>
+
+      <!-- Features section: overview of the platform's security capabilities -->
       <section class="features">
         <h2 class="section__title">Advanced Security, Simplified.</h2>
         <p class="section__description">
           Powerful features designed to keep your business safe and your data
           secure, without complixity.
         </p>
+
+        <!-- Individual feature cards -->
         <section class="feauters__cards-container">
           <div class="feauters__card">
             <p class="features_card__title">Real Time Threat Detection</p>
@@ -109,12 +134,14 @@
               Identify and stop threats before they cause harm.
             </p>
           </div>
+
           <div class="feauters__card">
             <p class="features_card__title">24/7 Monitoring</p>
             <p class="card__description">
               Our security experts and AI work together around the clock.
             </p>
           </div>
+
           <div class="feauters__card">
             <p class="features_card__title">Easy Integration</p>
             <p class="card__description">
@@ -131,13 +158,17 @@
         </section>
       </section>
 
+      <!-- Pricing section: subscription plans and their features -->
       <section class="prices">
         <h2 class="section__title">Simple, Transparent Pricing</h2>
         <p class="section__description">
           Choose the plan that fits your business needs. All plans include core
           security features with no hidden fees.
         </p>
+
+        <!-- Available pricing plans -->
         <section class="prices-container">
+          <!-- Starter plan -->
           <div class="prices-card">
             <p class="card__title">
               Starter<br />
@@ -155,6 +186,7 @@
             <button class="button button--primary">Get Started</button>
           </div>
 
+          <!-- Pro plan -->
           <div class="prices-card">
             <p class="card__title">
               Pro<br />
@@ -172,6 +204,7 @@
             <button class="button button--primary">Get Started</button>
           </div>
 
+          <!-- Enterprise plan -->
           <div class="prices-card">
             <p class="card__title">Enterprise<br />Custom</p>
             <p class="card__description">
@@ -188,8 +221,11 @@
         </section>
       </section>
 
+      <!-- FAQ section: answers to common questions about the platform -->
       <section class="faq">
         <h2 class="section__title">Frequently Asked Questions</h2>
+
+        <!-- Subscription changes -->
         <details>
           <summary>Can I change plans later?</summary>
           <p>
@@ -197,6 +233,8 @@
             ends.
           </p>
         </details>
+
+        <!-- Free trial information -->
         <details>
           <summary>Is there a free trial?</summary>
           <p>
@@ -204,17 +242,24 @@
             after that.
           </p>
         </details>
+
+        <!-- Accepted payment methods -->
         <details>
           <summary>What payment methods do you accept?</summary>
           <p>We accept visa, master card, and western union.</p>
         </details>
       </section>
     </main>
+
+    <!-- Footer: brand information and copyright notice -->
     <footer>
+      <!-- Footer logo and brand name -->
       <div class="footer__img-container">
         <img src="./assets/logo.png" alt="Secure Flow's Logo" loading="lazy" />
         <p>SecureFlow</p>
       </div>
+
+      <!-- Copyright notice -->
       <p class="footer__rights">&copy; 2026 SecureFlow</p>
     </footer>
   </body>
