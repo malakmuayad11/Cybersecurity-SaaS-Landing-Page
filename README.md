@@ -26,26 +26,26 @@ SecureFlow is a modern, responsive landing page and SaaS platform built for cybe
 
 ## Project Structure
 
-`Cybersecurity SaaS Landing Page
-├── index.html # Main HTML landing page document
+Cybersecurity SaaS Landing Page
+├── index.html                  # Main HTML landing page document
 ├── assets/
-│   ├── android-touch-icon.png # Touch icon for Android devices
-│   ├── apple-touch-icon.png # Touch icon for Apple iOS devices
-│   ├── favicon.svg # Scalable vector graphic website favicon
-│   └── logo.png # Primary brand logo image asset
+│   ├── android-touch-icon.png  # Touch icon for Android devices
+│   ├── apple-touch-icon.png    # Touch icon for Apple iOS devices
+│   ├── favicon.svg             # Scalable vector graphic website favicon
+│   └── logo.png                # Primary brand logo image asset
 └── styles/
-    ├── base.css # Core element resets and foundational typography styles
-    ├── buttons.css # Reusable button components and interactive states
-    ├── cards.css # Container card component styles
-    ├── faq.css # Layout and styling for the FAQ section
-    ├── features.css # Styling rules for the features grid and section
-    ├── footer.css # Page footer layout and copyright details
-    ├── header.css # Navigation bar and site header styling
-    ├── hero.css # Hero banner section styling and visual accents
-    ├── main.css # Master stylesheet importing individual CSS modules
-    ├── prices.css # Pricing plan card styles
-    ├── print.css # Print-specific style adjustments and media queries
-    └── tokens.css # Design tokens (CSS custom properties for colors, spacing, etc.)`
+    ├── base.css                # Core element resets and foundational typography styles
+    ├── buttons.css             # Reusable button components and interactive states
+    ├── cards.css               # Container card component styles
+    ├── faq.css                 # Layout and styling for the FAQ section
+    ├── features.css            # Styling rules for the features grid and section
+    ├── footer.css              # Page footer layout and copyright details
+    ├── header.css              # Navigation bar and site header styling
+    ├── hero.css                # Hero banner section styling and visual accents
+    ├── main.css                # Master stylesheet importing individual CSS modules
+    ├── prices.css              # Pricing plan card styles
+    ├── print.css               # Print-specific style adjustments and media queries
+    └── tokens.css              # Design tokens (CSS custom properties for colors, spacing, etc.)
 
 ## Getting Started
 
